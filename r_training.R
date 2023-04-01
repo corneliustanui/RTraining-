@@ -112,7 +112,7 @@ df1[df1$col5 == 1, ]
 df1[df1$col2 == "john", ]
 df1[df1$col6 > 1, ]
 
-# List
+# Lists 
 
 
 # Accessing elements in objects
