@@ -187,16 +187,14 @@ list2[[2]][1]
 
 
 list_all <- list(
-  df1 = list(var1 = 1:20,
+  df1 = data.frame(var1 = 1:20,
                    var2 = rep(c("A", "B"), 10)),
-  df2 = list(var3 = 1:20,
+  df2 = data.frame(var3 = 1:20,
                    var4 = rep(c("A", "B"), 10))
 )
 
 # convert list to dataframe
-list_all1 <- do.call(list_all)
-
-
+list_all1 <- do.call(cbind, list_all)
 
 
 # Accessing elements in objects
@@ -239,7 +237,6 @@ df1$var3[df1$var3 == ""] <- "M"
 
 # Importing data
 ## Modern R (Packages)
-
 
 
 

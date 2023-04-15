@@ -10,4 +10,7 @@ library(ggplot2) # graphs
 library(gmodels) # descriptive analysis 
 library(table1)  # descriptive analysis 
 library(readxl)  # importing data
+library(stringr) # string manipulation 
+library(stringi) # string manipulation 
+library(DT) # formatted tables
 
